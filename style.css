@@ -1,0 +1,30 @@
+body {
+    background-color: #403f3e;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+p {   
+    background-color: #525151;
+    color: white;
+    text-align: center;
+    width: max-content;
+    margin: auto auto;
+    margin-top: 90px;
+    padding: 30px;
+    box-shadow: 10px 15px #7d7a7a;
+    font-size: 180px;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 20px !important  ;
+    }
+  }
+
+  @media only screen and (max-height: 600px) {
+    p {
+        font-size: 70px !important  ;
+    }
+  }
